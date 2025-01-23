@@ -48,6 +48,7 @@
   <roles>Role.ОператорАттракционов</roles>
   <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Аттракционы</catalogs>
+  <catalogs>Catalog.Контрагент</catalogs>
   <documents>Document.ПосещениеАтракционов</documents>
   <documents>Document.ПродажаБилета</documents>
   <reports>Report.ПродажиПоАттракционам</reports>
