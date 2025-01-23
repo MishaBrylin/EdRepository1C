@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4df8dc-3103-4efe-8bda-ad412595caf6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d4df8dc-3103-4efe-8bda-ad412595caf6">
   <producedTypes>
     <objectType typeId="e82aaa84-485a-49bf-b0b0-178464525c4f" valueTypeId="0c5b13e5-b0f7-43d8-903a-78dc3355dc1b"/>
     <refType typeId="7b7862df-f900-4cbd-8c79-e52481e7ae4c" valueTypeId="131e97b8-da78-48c4-81ff-c30f49f0c6dc"/>
@@ -32,6 +32,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="31b5e7b3-ba1c-4117-be0d-15eff044d3ca">
+      <name>первыйАтракцион</name>
+      <description>Первый атракцион</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>
